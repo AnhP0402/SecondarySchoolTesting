@@ -1,0 +1,747 @@
+[XTTCTGV_01]
+HTTPStatusCode: 404
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /api/users/null</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; color:#000; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+        <td>http://45.32.106.84:3088/api/users/null</td>
+      </tr>
+      
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>settings.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                
+                [name='user-list']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                &lt;drf_format_suffix:format&gt;
+                [name='user-list']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                create
+                [name='add-user']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                create&lt;drf_format_suffix:format&gt;
+                [name='add-user']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                &lt;int:pk&gt;
+                [name='user-detail']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                &lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='user-detail']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                edit/&lt;int:pk&gt;
+                [name='edit-user']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                edit/&lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='edit-user']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                delete/&lt;int:pk&gt;
+                [name='delete-user']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                delete/&lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='delete-user']
+            
+          </li>
+        
+          <li>
+            
+                api/grades/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/classes/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/subjects/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/departments/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/school-years/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/points/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/class-subjects/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/personal/
+                
+            
+          </li>
+        
+      </ol>
+      <p>
+        
+          The current path, <code>api/users/null</code>,
+        
+        didn’t match any of these.
+      </p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You’re seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+[XTTCTGV_02]
+HTTPStatusCode: 200
+{"results":{"links":{"next":"http://45.32.106.84:3088/api/users/?limit=10&offset=10","previous":null},"total_items":110,"item_per_page":10,"data":[{"id":130,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":129,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":124,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":123,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":122,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":121,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":120,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":119,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":118,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":6,"full_name":"Nguyễn Văn A","phone":"0331234560","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Giáo viên","specialize":"Toán","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"}]}}
+[XTTCTGV_03]
+HTTPStatusCode: 200
+{"results":{"links":{"next":"http://45.32.106.84:3088/api/users/?limit=10&offset=10","previous":null},"total_items":111,"item_per_page":10,"data":[{"id":131,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":130,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":129,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":124,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":123,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":122,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":121,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":120,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":119,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":118,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"}]}}
+[XTTCTGV_05]
+HTTPStatusCode: 404
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /api/users/%26%3F%23</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; color:#000; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+        <td>http://45.32.106.84:3088/api/users/%2526%253F%2523</td>
+      </tr>
+      
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>settings.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                
+                [name='user-list']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                &lt;drf_format_suffix:format&gt;
+                [name='user-list']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                create
+                [name='add-user']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                create&lt;drf_format_suffix:format&gt;
+                [name='add-user']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                &lt;int:pk&gt;
+                [name='user-detail']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                &lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='user-detail']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                edit/&lt;int:pk&gt;
+                [name='edit-user']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                edit/&lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='edit-user']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                delete/&lt;int:pk&gt;
+                [name='delete-user']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                delete/&lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='delete-user']
+            
+          </li>
+        
+          <li>
+            
+                api/grades/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/classes/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/subjects/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/departments/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/school-years/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/points/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/class-subjects/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/personal/
+                
+            
+          </li>
+        
+      </ol>
+      <p>
+        
+          The current path, <code>api/users/%26%3F%23</code>,
+        
+        didn’t match any of these.
+      </p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You’re seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+[XTTCTGV_06]
+HTTPStatusCode: 404
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /api/users/0 1</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; color:#000; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+        <td>http://45.32.106.84:3088/api/users/0%201</td>
+      </tr>
+      
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>settings.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                
+                [name='user-list']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                &lt;drf_format_suffix:format&gt;
+                [name='user-list']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                create
+                [name='add-user']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                create&lt;drf_format_suffix:format&gt;
+                [name='add-user']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                &lt;int:pk&gt;
+                [name='user-detail']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                &lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='user-detail']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                edit/&lt;int:pk&gt;
+                [name='edit-user']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                edit/&lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='edit-user']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                delete/&lt;int:pk&gt;
+                [name='delete-user']
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+                delete/&lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='delete-user']
+            
+          </li>
+        
+          <li>
+            
+                api/grades/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/classes/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/subjects/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/departments/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/school-years/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/points/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/class-subjects/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/personal/
+                
+            
+          </li>
+        
+      </ol>
+      <p>
+        
+          The current path, <code>api/users/0 1</code>,
+        
+        didn’t match any of these.
+      </p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You’re seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+[XTTCTGV_07]
+HTTPStatusCode: 404
+{"detail":"Không tìm thấy."}
+[XTTCTGV_08]
+HTTPStatusCode: 200
+{"id":136,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"}
+[XTTCTGV_09]
+HTTPStatusCode: 200
+{"id":137,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"}
+[XTTCTGV_10]
+HTTPStatusCode: 200
+{"id":138,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"}
+[XTTCTGV_11]
+HTTPStatusCode: 200
+{"id":139,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"}
+[XTTCTGV_12]
+HTTPStatusCode: 200
+{"id":140,"full_name":"Nguyễn Văn A","phone":"0123456789","email":"nguyenvana@gmail.com","address":"Hà Nội","position":"Toán","specialize":"Giáo viên","department":{"id":1,"name":"Bộ môn Toán","slug":"bo-mon-toan"},"created_at":"04/05/2024","updated_at":"04/05/2024"}

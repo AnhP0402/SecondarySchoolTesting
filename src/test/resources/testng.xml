@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <test name="RestAssuredAPITesting" group-by-instances="true" preserve-order="true">
+    <classes>
+<!--     	<class name = "Test.Lecturer.GetAllLecturers"/>  
+    	<class name = "Test.Lecturer.GetDetailLecturer"/>  --> 
+    	<class name = "Test.Lecturer.CreateLecturer"/>  
+<!--     	<class name = "Test.Lecturer.EditLecturer"/>  
+    	<class name = "Test.Lecturer.DeleteLecturer"/>   -->
+    	
+<!--     	<class name = "Test.Student.GetAllStudents"/>
+    	<class name = "Test.Student.GetDetailStudent"/>
+    	<class name = "Test.Student.CreateStudent"/>
+    	<class name = "Test.Student.EditStudent"/>
+    	<class name = "Test.Student.DeleteStudent"/> -->
+    	
+<!--     	<class name = "Test.ClassSubject.GetAllClassSubjects"/>
+    	<class name = "Test.ClassSubject.GetDetailClassSubject"/>
+    	<class name = "Test.ClassSubject.CreateClassSubject"/>
+    	<class name = "Test.ClassSubject.DeleteClassSubject"/> -->
+
+    	<!-- <class name = "Test.Point.InputPoint"/> -->  
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->

@@ -1,0 +1,744 @@
+[XTTCTHS_01]
+HTTPStatusCode: 404
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /api/students/null</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; color:#000; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+        <td>http://45.32.106.84:3088/api/students/null</td>
+      </tr>
+      
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>settings.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/grades/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/classes/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/subjects/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/departments/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/school-years/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                
+                [name='student-list']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                &lt;drf_format_suffix:format&gt;
+                [name='student-list']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                create
+                [name='add-student']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                create&lt;drf_format_suffix:format&gt;
+                [name='add-student']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                &lt;int:pk&gt;
+                [name='student-detail']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                &lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='student-detail']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                edit/&lt;int:pk&gt;
+                [name='edit-student']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                edit/&lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='edit-student']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                delete/&lt;int:pk&gt;
+                [name='delete-student']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                delete/&lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='delete-student']
+            
+          </li>
+        
+          <li>
+            
+                api/points/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/class-subjects/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/personal/
+                
+            
+          </li>
+        
+      </ol>
+      <p>
+        
+          The current path, <code>api/students/null</code>,
+        
+        didn’t match any of these.
+      </p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You’re seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+[XTTCTHS_02]
+HTTPStatusCode: 200
+{"results":{"links":{"next":"http://45.32.106.84:3088/api/students/?limit=10&offset=10","previous":null},"total_items":15,"item_per_page":10,"data":[{"id":6,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":5,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":"02/05/2024","updated_at":"02/05/2024"},{"id":4,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":"08/04/2024","updated_at":"08/04/2024"},{"id":1,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":1,"name":"Năm học 2022-2023"},"created_at":"13/08/2023","updated_at":"13/08/2023"},{"id":7,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":null,"updated_at":null},{"id":8,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":null,"updated_at":null},{"id":9,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":null,"updated_at":null},{"id":10,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":null,"updated_at":null},{"id":11,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":null,"updated_at":null},{"id":12,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":null,"updated_at":null}]}}
+[XTTCTHS_03]
+HTTPStatusCode: 200
+{"results":{"links":{"next":"http://45.32.106.84:3088/api/students/?limit=10&offset=10","previous":null},"total_items":15,"item_per_page":10,"data":[{"id":6,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":"04/05/2024","updated_at":"04/05/2024"},{"id":5,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":"02/05/2024","updated_at":"02/05/2024"},{"id":4,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":"08/04/2024","updated_at":"08/04/2024"},{"id":1,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":1,"name":"Năm học 2022-2023"},"created_at":"13/08/2023","updated_at":"13/08/2023"},{"id":7,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":null,"updated_at":null},{"id":8,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":null,"updated_at":null},{"id":9,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":null,"updated_at":null},{"id":10,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":null,"updated_at":null},{"id":11,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":null,"updated_at":null},{"id":12,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":null,"updated_at":null}]}}
+[XTTCTHS_05]
+HTTPStatusCode: 404
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /api/students/%26%3F%23</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; color:#000; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+        <td>http://45.32.106.84:3088/api/students/%2526%253F%2523</td>
+      </tr>
+      
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>settings.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/grades/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/classes/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/subjects/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/departments/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/school-years/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                
+                [name='student-list']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                &lt;drf_format_suffix:format&gt;
+                [name='student-list']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                create
+                [name='add-student']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                create&lt;drf_format_suffix:format&gt;
+                [name='add-student']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                &lt;int:pk&gt;
+                [name='student-detail']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                &lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='student-detail']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                edit/&lt;int:pk&gt;
+                [name='edit-student']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                edit/&lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='edit-student']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                delete/&lt;int:pk&gt;
+                [name='delete-student']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                delete/&lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='delete-student']
+            
+          </li>
+        
+          <li>
+            
+                api/points/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/class-subjects/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/personal/
+                
+            
+          </li>
+        
+      </ol>
+      <p>
+        
+          The current path, <code>api/students/%26%3F%23</code>,
+        
+        didn’t match any of these.
+      </p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You’re seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+[XTTCTHS_06]
+HTTPStatusCode: 404
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /api/students/0 1</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; color:#000; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+        <td>http://45.32.106.84:3088/api/students/0%201</td>
+      </tr>
+      
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>settings.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/users/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/grades/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/classes/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/subjects/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/departments/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/school-years/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                
+                [name='student-list']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                &lt;drf_format_suffix:format&gt;
+                [name='student-list']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                create
+                [name='add-student']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                create&lt;drf_format_suffix:format&gt;
+                [name='add-student']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                &lt;int:pk&gt;
+                [name='student-detail']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                &lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='student-detail']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                edit/&lt;int:pk&gt;
+                [name='edit-student']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                edit/&lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='edit-student']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                delete/&lt;int:pk&gt;
+                [name='delete-student']
+            
+          </li>
+        
+          <li>
+            
+                api/students/
+                
+            
+                delete/&lt;int:pk&gt;&lt;drf_format_suffix:format&gt;
+                [name='delete-student']
+            
+          </li>
+        
+          <li>
+            
+                api/points/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/class-subjects/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/personal/
+                
+            
+          </li>
+        
+      </ol>
+      <p>
+        
+          The current path, <code>api/students/0 1</code>,
+        
+        didn’t match any of these.
+      </p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You’re seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+[XTTCTHS_07]
+HTTPStatusCode: 404
+{"detail":"Không tìm thấy."}
+[XTTCTHS_08]
+HTTPStatusCode: 200
+{"id":5,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":"02/05/2024","updated_at":"02/05/2024"}
+[XTTCTHS_09]
+HTTPStatusCode: 200
+{"id":5,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":"02/05/2024","updated_at":"02/05/2024"}
+[XTTCTHS_10]
+HTTPStatusCode: 200
+{"id":5,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":"02/05/2024","updated_at":"02/05/2024"}
+[XTTCTHS_11]
+HTTPStatusCode: 200
+{"id":5,"full_name":"Bùi Minh Anh","gender":"Nam","birthday":"2012-10-10","address":"Đồng Nai","nation":"Kinh","religion":"Không","father_name":"Bùi Minh Anh Bố","father_job":"Bác sĩ","mother_name":"Nguyễn Minh Anh Mẹ","mother_job":"Y tá","classes":{"id":1,"name":"Lớp 6A","slug":"lop-6a","description":"Lớp 6A ban cơ bản"},"school_year":{"id":2,"name":"Năm học 2023-2024"},"created_at":"02/05/2024","updated_at":"02/05/2024"}

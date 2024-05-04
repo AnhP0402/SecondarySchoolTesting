@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RestAssuredAPITesting(failed)">
+    <classes>
+      <class name="Test.Lecturer.CreateLecturer">
+        <methods>
+          <include name="setUpTC"/>
+          <include name="setUp"/>
+          <include name="TGV_34"/>
+          <include name="TGV_23"/>
+          <include name="TGV_31"/>
+          <include name="TGV_20"/>
+          <include name="TGV_36"/>
+          <include name="TGV_25"/>
+          <include name="TGV_03"/>
+          <include name="TGV_33"/>
+          <include name="TGV_22"/>
+          <include name="TGV_30"/>
+          <include name="TGV_21"/>
+          <include name="TGV_28"/>
+          <include name="TGV_17"/>
+          <include name="TGV_19"/>
+          <include name="TGV_27"/>
+          <include name="TGV_35"/>
+          <include name="TGV_24"/>
+          <include name="TGV_29"/>
+          <include name="TGV_18"/>
+          <include name="TGV_07"/>
+          <include name="TGV_37"/>
+          <include name="TGV_26"/>
+        </methods>
+      </class> <!-- Test.Lecturer.CreateLecturer -->
+    </classes>
+  </test> <!-- RestAssuredAPITesting(failed) -->
+</suite> <!-- Failed suite [Suite] -->

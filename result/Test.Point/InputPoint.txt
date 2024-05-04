@@ -1,0 +1,147 @@
+[ND_01]
+HTTPStatusCode: 400
+{"detail":"Invalid parameters"}
+[ND_02]
+HTTPStatusCode: 400
+{"detail":"Invalid parameters"}
+[ND_03]
+HTTPStatusCode: 400
+{"error":{"code":400,"message":"Student does not exist"}}
+[ND_04]
+HTTPStatusCode: 400
+{"detail":"Invalid parameters"}
+[ND_05]
+HTTPStatusCode: 400
+{"detail":"Invalid parameters"}
+[ND_06]
+HTTPStatusCode: 400
+{"error":{"code":400,"message":"Class subject does not exist"}}
+[ND_07]
+HTTPStatusCode: 400
+{"error":{"code":400,"message":"Point does exist"}}
+[ND_08]
+HTTPStatusCode: 400
+{"detail":"Invalid parameters"}
+[ND_09]
+HTTPStatusCode: 400
+{"detail":"Invalid parameters"}
+[ND_10]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":-0.1,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":7.4,"is_section_1":false,"is_section_2":true}}}
+[ND_11]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":10.1,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":9.1,"is_section_1":false,"is_section_2":true}}}
+[ND_12]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":0.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.46,"is_section_1":false,"is_section_2":true}}}
+[ND_13]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":0.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.46,"is_section_1":false,"is_section_2":true}}}
+[ND_14]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":-0.1,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.45,"is_section_1":false,"is_section_2":true}}}
+[ND_15]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":10.1,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.88,"is_section_1":false,"is_section_2":true}}}
+[ND_16]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":0.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.46,"is_section_1":false,"is_section_2":true}}}
+[ND_17]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":0.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.46,"is_section_1":false,"is_section_2":true}}}
+[ND_18]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":-0.1,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.45,"is_section_1":false,"is_section_2":true}}}
+[ND_19]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":10.1,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.88,"is_section_1":false,"is_section_2":true}}}
+[ND_20]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":0.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.46,"is_section_1":false,"is_section_2":true}}}
+[ND_21]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":0.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.46,"is_section_1":false,"is_section_2":true}}}
+[ND_22]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":-0.1,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.45,"is_section_1":false,"is_section_2":true}}}
+[ND_23]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":10.1,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.88,"is_section_1":false,"is_section_2":true}}}
+[ND_24]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":0.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.46,"is_section_1":false,"is_section_2":true}}}
+[ND_25]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":0.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.46,"is_section_1":false,"is_section_2":true}}}
+[ND_26]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":-0.1,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.45,"is_section_1":false,"is_section_2":true}}}
+[ND_27]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":10.1,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.88,"is_section_1":false,"is_section_2":true}}}
+[ND_28]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":0.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":7.33,"is_section_1":false,"is_section_2":true}}}
+[ND_29]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":0.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":7.33,"is_section_1":false,"is_section_2":true}}}
+[ND_30]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":-0.1,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":7.32,"is_section_1":false,"is_section_2":true}}}
+[ND_31]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":10.1,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":9.02,"is_section_1":false,"is_section_2":true}}}
+[ND_32]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":0.0,"exam_finally":9.0,"avg_point":7.42,"is_section_1":false,"is_section_2":true}}}
+[ND_33]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":0.0,"exam_finally":9.0,"avg_point":7.42,"is_section_1":false,"is_section_2":true}}}
+[ND_34]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":-0.1,"exam_finally":9.0,"avg_point":7.4,"is_section_1":false,"is_section_2":true}}}
+[ND_35]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":10.1,"exam_finally":9.0,"avg_point":9.1,"is_section_1":false,"is_section_2":true}}}
+[ND_36]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":0.0,"avg_point":5.83,"is_section_1":false,"is_section_2":true}}}
+[ND_37]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":0.0,"avg_point":5.83,"is_section_1":false,"is_section_2":true}}}
+[ND_38]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":-0.1,"avg_point":5.8,"is_section_1":false,"is_section_2":true}}}
+[ND_39]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":10.1,"avg_point":9.2,"is_section_1":false,"is_section_2":true}}}
+[ND_40]
+HTTPStatusCode: 500
+{"error":{"code":500,"message":"Internal Server Error"}}
+[ND_41]
+HTTPStatusCode: 500
+{"error":{"code":500,"message":"Internal Server Error"}}
+[ND_42]
+HTTPStatusCode: 500
+{"error":{"code":500,"message":"Internal Server Error"}}
+[ND_43]
+HTTPStatusCode: 500
+{"error":{"code":500,"message":"Internal Server Error"}}
+[ND_44]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.83,"is_section_1":false,"is_section_2":true}}}
+[ND_45]
+HTTPStatusCode: 500
+{"error":{"code":500,"message":"Internal Server Error"}}
+[ND_46]
+HTTPStatusCode: 500
+{"error":{"code":500,"message":"Internal Server Error"}}
+[ND_47]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.83,"is_section_1":false,"is_section_2":true}}}
+[ND_48]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.83,"is_section_1":false,"is_section_2":true}}}
+[ND_49]
+HTTPStatusCode: 200
+{"results":{"code":200,"message":"succeed","data":{"student":1,"class_subject":2,"exam_quick":8.5,"exam_15_no_1":9.0,"exam_15_no_2":9.0,"exam_15_no_3":9.0,"exam_15_no_4":9.0,"exam_45_no_1":9.0,"exam_45_no_2":8.5,"exam_finally":9.0,"avg_point":8.83,"is_section_1":false,"is_section_2":true}}}
